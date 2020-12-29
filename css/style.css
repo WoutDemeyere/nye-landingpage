@@ -594,7 +594,7 @@ input:disabled {
 
 @media (min-width: 1440) {
     .c-stream__content-timer {
-        padding: calc(var(--global-whitespace-xxl)*4)  var(--global-whitespace-xxl);
+        padding: calc(var(--global-whitespace-xxl)*3)  var(--global-whitespace-xxl);
     }
 }
 .c-stream-title {
