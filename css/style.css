@@ -588,11 +588,15 @@ input:disabled {
 
 @media (min-width: 768px) {
     .c-stream__content-timer {
-        padding: calc(var(--global-whitespace-xxl)*4)  var(--global-whitespace-xxl);
+        padding: calc(var(--global-whitespace-xxl)*3)  var(--global-whitespace-xxl);
     }
-
 }
 
+@media (min-width: 1440) {
+    .c-stream__content-timer {
+        padding: calc(var(--global-whitespace-xxl)*4)  var(--global-whitespace-xxl);
+    }
+}
 .c-stream-title {
     text-align: center;
     font-size: calc(var(--global-font-size) * 4);
